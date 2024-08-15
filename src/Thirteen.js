@@ -48,7 +48,7 @@ export default function Thirteen() {
                 <div>
                    <h2>{isRegistered ? 'Login' : 'Register'}</h2>
                    <form>
-        <input type='email' placeholder='Email' required onChange={(e)=>setEmail(e.target.value)} />
+        <input type='email' placeholder='Email'  onChange={(e)=>setEmail(e.target.value)} />
         <input type='password' placeholder='Password' onChange={(e)=>setEmail(e.target.value)} />
         <button onClick={handleAuthentication}>
             {isRegistered ? 'Login' : 'Register'}
