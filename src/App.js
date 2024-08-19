@@ -11,7 +11,9 @@ import React from 'react'
 // import Ten from './Ten'
 // import Eleven from './Eleven'
 // import Twelve from './Twelve'
-import Thirteen from './Thirteen'
+// import Thirteen from './Thirteen'
+// import Fourteen from './Fourteen'
+import Fifteen from './Fifteen'
 
 export default function App() {
   return (
@@ -28,7 +30,9 @@ export default function App() {
       {/* <Ten /> */}
       {/* <Eleven /> */}
       {/* <Twelve /> */}
-      <Thirteen />
+      {/* <Thirteen /> */}
+      {/* <Fourteen /> */}
+      <Fifteen />
     </div>
   )
 }
