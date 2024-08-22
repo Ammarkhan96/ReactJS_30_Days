@@ -13,9 +13,11 @@ import React from 'react'
 // import Twelve from './Twelve'
 // import Thirteen from './Thirteen'
 // import Fourteen from './Fourteen'
-import Fifteen from './Fifteen'
+// import Fifteen from './Fifteen'
+import Sixteen from './Sixteen'
 
 export default function App() {
+  const items = ['item1', 'item2', 'item3', 'Another Item', 'Another Item2']
   return (
     <div>
       {/* <One /> */}
@@ -32,7 +34,8 @@ export default function App() {
       {/* <Twelve /> */}
       {/* <Thirteen /> */}
       {/* <Fourteen /> */}
-      <Fifteen />
+      {/* <Fifteen items={items} /> */}
+      <Sixteen items={items} itemsPerPage={2} />
     </div>
   )
 }
