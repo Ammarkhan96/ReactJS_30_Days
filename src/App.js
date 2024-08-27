@@ -14,10 +14,12 @@ import React from 'react'
 // import Thirteen from './Thirteen'
 // import Fourteen from './Fourteen'
 // import Fifteen from './Fifteen'
-import Sixteen from './Sixteen'
+// import Sixteen from './Sixteen'
+// import Seventeen from './Seventeen'
+import Eighteen from './Eighteen'
 
 export default function App() {
-  const items = ['item1', 'item2', 'item3', 'Another Item', 'Another Item2']
+  // const items = ['item1', 'item2', 'item3', 'Another Item', 'Another Item2']
   return (
     <div>
       {/* <One /> */}
@@ -35,7 +37,9 @@ export default function App() {
       {/* <Thirteen /> */}
       {/* <Fourteen /> */}
       {/* <Fifteen items={items} /> */}
-      <Sixteen items={items} itemsPerPage={2} />
+      {/* <Sixteen items={items} itemsPerPage={2} /> */}
+      {/* <Seventeen /> */}
+      <Eighteen />
     </div>
   )
 }
