@@ -16,7 +16,10 @@ import React from 'react'
 // import Fifteen from './Fifteen'
 // import Sixteen from './Sixteen'
 // import Seventeen from './Seventeen'
-import Eighteen from './Eighteen'
+// import Eighteen from './Eighteen'
+import Nineteen from './Nineteen'
+import NineteenComp from './NineteenComp'
+import { ThemeProvider } from './ThemeContext'
 
 export default function App() {
   // const items = ['item1', 'item2', 'item3', 'Another Item', 'Another Item2']
@@ -39,7 +42,13 @@ export default function App() {
       {/* <Fifteen items={items} /> */}
       {/* <Sixteen items={items} itemsPerPage={2} /> */}
       {/* <Seventeen /> */}
-      <Eighteen />
+      {/* <Eighteen /> */}
+      <ThemeProvider>
+        <div className='App'>
+        <Nineteen />
+        <NineteenComp />
+        </div>
+      </ThemeProvider>
     </div>
   )
 }
