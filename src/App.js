@@ -17,9 +17,11 @@ import React from 'react'
 // import Sixteen from './Sixteen'
 // import Seventeen from './Seventeen'
 // import Eighteen from './Eighteen'
-import Nineteen from './Nineteen'
-import NineteenComp from './NineteenComp'
-import { ThemeProvider } from './ThemeContext'
+// import Nineteen from './Nineteen'
+// import NineteenComp from './NineteenComp'
+// import { ThemeProvider } from './ThemeContext'
+import Twenty from './Twenty'
+import { CartProvider } from './CartContext'
 
 export default function App() {
   // const items = ['item1', 'item2', 'item3', 'Another Item', 'Another Item2']
@@ -43,12 +45,15 @@ export default function App() {
       {/* <Sixteen items={items} itemsPerPage={2} /> */}
       {/* <Seventeen /> */}
       {/* <Eighteen /> */}
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <div className='App'>
         <Nineteen />
         <NineteenComp />
         </div>
-      </ThemeProvider>
+      </ThemeProvider> */}
+      <CartProvider>
+      <Twenty />
+      </CartProvider>
     </div>
   )
 }
