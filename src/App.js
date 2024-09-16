@@ -20,8 +20,9 @@ import React from 'react'
 // import Nineteen from './Nineteen'
 // import NineteenComp from './NineteenComp'
 // import { ThemeProvider } from './ThemeContext'
-import Twenty from './Twenty'
-import { CartProvider } from './CartContext'
+// import Twenty from './Twenty'
+// import { CartProvider } from './CartContext'
+import TwentyOne from './TwentyOne'
 
 export default function App() {
   // const items = ['item1', 'item2', 'item3', 'Another Item', 'Another Item2']
@@ -51,9 +52,10 @@ export default function App() {
         <NineteenComp />
         </div>
       </ThemeProvider> */}
-      <CartProvider>
+      {/* <CartProvider>
       <Twenty />
-      </CartProvider>
+      </CartProvider> */}
+      <TwentyOne />
     </div>
   )
 }
