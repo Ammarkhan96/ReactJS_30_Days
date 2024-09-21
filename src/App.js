@@ -22,7 +22,8 @@ import React from 'react'
 // import { ThemeProvider } from './ThemeContext'
 // import Twenty from './Twenty'
 // import { CartProvider } from './CartContext'
-import TwentyOne from './TwentyOne'
+// import TwentyOne from './TwentyOne'
+import TwentyTwo from './TwentyTwo'
 
 export default function App() {
   // const items = ['item1', 'item2', 'item3', 'Another Item', 'Another Item2']
@@ -55,7 +56,8 @@ export default function App() {
       {/* <CartProvider>
       <Twenty />
       </CartProvider> */}
-      <TwentyOne />
+      {/* <TwentyOne /> */}
+      <TwentyTwo />
     </div>
   )
 }
