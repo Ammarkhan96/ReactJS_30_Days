@@ -23,7 +23,12 @@ import React from 'react'
 // import Twenty from './Twenty'
 // import { CartProvider } from './CartContext'
 // import TwentyOne from './TwentyOne'
-import TwentyTwo from './TwentyTwo'
+// import TwentyTwo from './TwentyTwo'
+// import Twentythree from './Twentythree'
+import { AuthProvider } from './AuthContext'
+import TwentyFour from './TwentyFour'
+
+
 
 export default function App() {
   // const items = ['item1', 'item2', 'item3', 'Another Item', 'Another Item2']
@@ -57,7 +62,12 @@ export default function App() {
       <Twenty />
       </CartProvider> */}
       {/* <TwentyOne /> */}
-      <TwentyTwo />
-    </div>
+      {/* <TwentyTwo /> */}
+      {/* <Twentythree/> */}
+         <AuthProvider>
+      <TwentyFour/>
+      </AuthProvider>
+      
+      </div>
   )
 }
