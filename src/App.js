@@ -25,10 +25,10 @@ import React from 'react'
 // import TwentyOne from './TwentyOne'
 // import TwentyTwo from './TwentyTwo'
 // import Twentythree from './Twentythree'
-import { AuthProvider } from './AuthContext'
-import TwentyFour from './TwentyFour'
-
-
+// import { AuthProvider } from './AuthContext'
+// import TwentyFour from './TwentyFour'
+// import { TwentyFive } from './TwentyFive'
+import TwentySix from './TwentySix'
 
 export default function App() {
   // const items = ['item1', 'item2', 'item3', 'Another Item', 'Another Item2']
@@ -64,9 +64,11 @@ export default function App() {
       {/* <TwentyOne /> */}
       {/* <TwentyTwo /> */}
       {/* <Twentythree/> */}
-         <AuthProvider>
+         {/* <AuthProvider>
       <TwentyFour/>
-      </AuthProvider>
+      </AuthProvider> */}
+      {/* <TwentyFive /> */}
+      <TwentySix />
       
       </div>
   )
